@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700&display=swap');
+body{
+    font-family: 'Almarai', sans-serif;
+}
+h1 , h2 , h3 , h4 , h5, h6{
+    color: #3d3d4e !important;
+}
+.sidebar-dark-purple .sidebar-left{
+    background-color: #A20034 !important;
+}
+.bg-redWine{
+    background-color: #A20034;
+}
+.main-header{
+    background-color: #FEEEE3 !important;
+    height: 64px;
+}
+.main-header .badge-top-container .badge{
+    background-color: #A20034;
+}
+.customizer .handle {
+    background-color: #A20034;
+}
+.main-content{
+    margin-top : 80px !important;
+}
+.main-content .row {
+    margin: 0;
+}
+.form label{
+    margin-right: 8px !important;
+}
+.form .row , .payment .row:not(.payment-details .row){
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-top: 1px solid #003473;
+}
+.form .custom-select{
+    background-position: 10px ;
+    padding: 6px 12px;
+}
+.form .icon-input{
+    border-radius: 20px 0 0 20px !important;
+    -webkit-border-radius: 20px 0 0 20px !important;
+    -moz-border-radius: 20px 0 0 20px !important;
+    -ms-border-radius: 20px 0 0 20px !important;
+    -o-border-radius: 20px 0 0 20px !important;
+}
+.form .icon-input2{
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+}
+
+.form .icon-input-before{
+    border-radius: 0 20px 20px 0 !important;
+    -webkit-border-radius: 0 20px 20px 0 !important;
+    -moz-border-radius: 0 20px 20px 0 !important;
+    -ms-border-radius: 0 20px 20px 0 !important;
+    -o-border-radius: 0 20px 20px 0 !important;
+}
+.form .icon-input-after{
+    border-radius: 20px 0 0 20px !important;
+    -webkit-border-radius: 20px 0 0 20px !important;
+    -moz-border-radius: 20px 0 0 20px !important;
+    -ms-border-radius: 20px 0 0 20px !important;
+    -o-border-radius: 20px 0 0 20px !important;
+}
+.data-table i{
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.control-bar button{
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.control-bar i{
+    font-size: 16px;
+}
+.payment hr{
+    margin: 10px;
+}
+.payment-details .row{
+    margin: 5px 0;
+}
+.payment .radio{
+    padding-right: 20px;
+}
+.payment-ways .checkmark{
+    width: 15px;
+    height: 15px;
+}
+
+.navigation-left{
+    overflow:scroll;
+}
+
+/* Start Resturant Style */
+.food-version button{
+    background-color: #FEEEE3 !important;
+    color: #A20034 !important;
+    border-color: #A20034;
+}
+.categories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    overflow-x: scroll;
+}
+.categories .category-item{
+    cursor: pointer;
+    padding: 15px;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-left: 10px;
+    text-align: center;
+    background-color:#FEEEE3;
+}
+.categories .category-item i {
+    font-size: 30px;
+    color: #A20034;
+}
+.categories .category-item span {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #A20034;
+}
+.food{
+    height: 500px;
+    overflow-y: scroll;
+}
+.food .card{
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.food .card img{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.food .card h6{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.food .card p{
+    color: rgb(101, 101, 101);
+}
+.food .card span{
+    color: #A20034 !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+.food .card .food-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.food .food-action{
+    display: flex;
+    align-items: center;
+}
+.food .food-action i{
+    cursor: pointer;
+    color: #A20034;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.category-active{
+    background-color: #A20034 !important;
+}
+.category-active i{
+    color: white !important;
+}
+.category-active span{
+    color: white !important;
+}
+.tables{
+    height: 50px;
+}
+.tables .custmer-table{
+    padding: 8px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.tables h4{
+    padding: 5px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+    background-color: #FEEEE3;
+    color: #A20034 !important;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.details p{
+    background-color: #A20034 !important;
+    color: white;
+}
+.table tbody tr:nth-of-type(odd){
+    background-color: #feeee383;
+}
+/* End Resturant Style */
+
+
+@media only screen and (max-width: 1170px){
+    .control-bar {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .control-bar button .ul-btn__text{
+        display: none;
+    }
+    .control-bar button{
+        padding: 8px 12px;
+    }
+    .control-bar button i{
+        font-size: 18px;
+    }
+    .control-bar button .ul-btn__icon{
+        margin: 0 !important;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .control-bar {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .control-bar button .ul-btn__text{
+        display: none;
+    }
+    .control-bar button .ul-btn__icon{
+        margin: 0 !important;
+    }
+    .control-bar button{
+        padding: 8px;
+    }
+    .control-bar button i{
+        font-size: 14px;
+    }
+  }
